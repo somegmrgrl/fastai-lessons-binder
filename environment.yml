@@ -1,0 +1,9 @@
+
+name: fastai-lessons-binder-environment
+channels:
+  - conda-forge
+dependencies:
+  - pytorch
+  - pip
+  - pip:
+      - fastai>=1.0.42
